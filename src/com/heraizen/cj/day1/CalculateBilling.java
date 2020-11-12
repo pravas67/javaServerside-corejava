@@ -9,7 +9,7 @@ public class CalculateBilling {
 		System.out.println("Enter the billing amount:");
 		double billingAmount=sc.nextDouble();
 		if(billingAmount>6000) {
-			billingAmount=billingAmount-(billingAmount*10/100);
+			billingAmount-=(billingAmount*0.1f);
 		}
 		System.out.println("Your net billing amount: "+billingAmount);
 		sc.close();

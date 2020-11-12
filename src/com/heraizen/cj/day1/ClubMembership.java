@@ -14,6 +14,7 @@ public class ClubMembership {
 			System.out.println("Enter the age:");
 			double age=sc.nextDouble();
 			getClubMembership(name,mobileNumber,age);
+			sc.close();
 	}
 	public static void getClubMembership(String name,long mobileNumber,double age) {
 		if(age>18) {

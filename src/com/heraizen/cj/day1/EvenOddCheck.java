@@ -13,6 +13,7 @@ public class EvenOddCheck {
 		}else {
 			System.out.println("The entered number "+number+" is odd");
 		}
+		sc.close();
 	}
 
 }

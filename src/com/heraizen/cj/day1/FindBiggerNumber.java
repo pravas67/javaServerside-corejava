@@ -15,6 +15,7 @@ public class FindBiggerNumber {
 		}else {
 			System.out.println("The bigger of the two numbers entered ("+number1+" and "+number2+") is:"+number2);
 		}
+		sc.close();
 	}
 
 }
